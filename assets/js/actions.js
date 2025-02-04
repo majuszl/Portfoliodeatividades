@@ -24,23 +24,24 @@ function trocarTexto () {
     }
 }
 
-document.getElementById('btn-footer').addEventListener('scroll', trocarTexto)
+document.getElementById('btn-footer').addEventListener('mouseover', trocarTexto)
 
 
 // ainda não funciona
 function numeroPositivo() {
-    var num = document.getElementById('num1').value
+    var num = document.getElementById('num').value
+    var resposta = ""
 
     if (num > 0) {
-        return('Positivo!')
+        resposta = 'Positivo!'
     } else if (num < 0) {
-        return('Negativo!')
+        resposta = 'Negativo!'
     } else if (num == 0) {
-        return('Igual a zero.')
+        resposta = 'Igual a zero.'
     }
 
 
-    document.getElementById('resultado').innerText = ""
+    document.getElementById('resultado').innerText = resposta
 }
 
 document.getElementById('btnverificar').addEventListener('click', numeroPositivo)

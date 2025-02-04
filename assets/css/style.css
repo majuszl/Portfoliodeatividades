@@ -210,6 +210,11 @@ main {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+.btnverificar:hover {
+    background-color: var(--branco);
+    color: var(--marromclaro);
+} 
+
 footer {
     background-color: var(--marromclaro) ;
     padding-bottom: 80px;
