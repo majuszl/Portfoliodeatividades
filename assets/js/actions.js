@@ -4,7 +4,7 @@ function alternarTexto() {
     console.log(texto.textContent)
 
     if (texto.textContent === "MEUS") {
-        texto.textContent = "PROJETOS"
+        texto.textContent = "PROJETOS (;"
     } else {
         texto.textContent = "MEUS"
     }
@@ -13,7 +13,8 @@ function alternarTexto() {
 setInterval(alternarTexto, 1000)
 
 
-function trocarTexto () {
+// ainda não funciona
+function trocarTexto () { 
     var botao = document.getElementById("btn-footer")
 
     if (botao.textContent === "Obrigada por ver...") {
@@ -23,19 +24,21 @@ function trocarTexto () {
     }
 }
 
-document.getElementById('btnfooter').addEventListener('scroll', trocarTexto)
+document.getElementById('btn-footer').addEventListener('scroll', trocarTexto)
 
 
+// ainda não funciona
 function numeroPositivo() {
-    var num1 = document.getElementById('num1').value
+    var num = document.getElementById('num1').value
 
-    if (num1 > 0) {
-        return('Este número é positivo! (; ')
-    } else if (num1 < 0) {
-        return('Este número é negativo! (; ')
-    } else if (num1 == 0) {
-        return('O número é igual a zero.')
+    if (num > 0) {
+        return('Positivo!')
+    } else if (num < 0) {
+        return('Negativo!')
+    } else if (num == 0) {
+        return('Igual a zero.')
     }
+
 
     document.getElementById('resultado').innerText = ""
 }

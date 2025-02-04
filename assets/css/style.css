@@ -21,9 +21,13 @@ header {
 
 .img-logo1 {
     width: 250px;
-    padding-left: 500px;
     padding-top: 20px;
     padding-bottom: 10px;
+}
+.divimg-cab {
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 nav {
@@ -84,8 +88,8 @@ main {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--marromclaro);
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 150px;
+    padding-top: 60px;
+    padding-bottom: 100px;
     font-size: 25px;
     letter-spacing: 5px;
 }
@@ -141,13 +145,19 @@ main {
     color: var(--branco);
 }
 
-.btn-proj {
-    color: var(--branco);
-    padding-top: 50px;
-    padding-bottom: 50px;
+.divbtn-proj {
     justify-content: center;
     display: flex;
     align-items: center;
+}
+
+.btn-proj {
+    color: var(--branco);
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: var(--marromescuro);
     border: var(--marromescuro);
     border-radius: 10px;
@@ -160,6 +170,45 @@ main {
     background-color: var(--branco);
     color: var(--marromclaro);
 } 
+
+.teste-con {
+    background-color: var(--fundoclaro);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--marromclaro);
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.testando-con {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.result-teste {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btnverificar {
+    color: var(--branco);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:var(--marromclaro);
+    border: var(--marromescuro);
+    border-radius: 10px;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
 
 footer {
     background-color: var(--marromclaro) ;
@@ -176,13 +225,19 @@ footer h5 {
     font-size: larger;
 }
 
-.btn-footer {
-    color: var(--branco);
-    padding-top: 20px;
-    padding-bottom: 20px;
+.divbtn-footer {
     justify-content: center;
     display: flex;
     align-items: center;
+}
+
+.btn-footer {
+    color: var(--branco);
+    margin-top: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: var(--marromescuro);
     border: var(--marromescuro);
     border-radius: 10px;
